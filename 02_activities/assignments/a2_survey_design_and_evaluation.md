@@ -40,25 +40,36 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `#2`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+The purpose of this survey is to understand which issues, concerns, and leadership qualities are most important to Canadian voters in the final month before the federal election. These insights will guide targeted campaign messaging, policy priorities, and leadership positioning to maximize support and secure victory.
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+- Target Population: Eligible Canadian voters.
+
+- Sampling Frame: Random-digit-dial (RDD) telephone sampling of Canadian households.
+
+- Sampling Units: Households contacted through RDD telephone sampling.
+
+- Observational Units: The individual eligible voter randomly selected within each sampled household.
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
+1. If the federal election were held today, which party would you be most likely to vote for?
+(List of major parties + Undecided + Prefer not to say)
+2. Which of the following issues is most important in deciding your vote in this election?
+(Economy, cost of living, healthcare, housing, climate change, public safety, taxes, other: specify)
+3. What one leadership quality matters most to you in choosing a prime minister?
+(Trustworthiness, competence, experience, empathy, strength in decision-making, vision for the future, other: specify)
+4. Compared to one month ago, are you more likely, less likely, or about the same in your likelihood of voting for Party A?
+(More likely / Less likely / About the same / Unsure)
+5. Which type of message would most increase your support for a political party right now?
+(Clear economic plan, affordability relief, healthcare improvements, housing solutions, climate action, tax reduction, national unity, other: specify)
 6. write your question here... (optional)
 7. write your question here... (optional)
 8. write your question here... (optional)
@@ -71,7 +82,19 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+1. Sample type: Sample survey with a cross-sectional design using a stratified design employing probability sampling. It also utilizes a "rejective sampling" approach to ensure adequate representation of volunteers (long interviews are given to all volunteers, while non-volunteers are sub-sampled).
+2. Sample size: The survey used a field sample of approximately 50,000 units. Around 40,000 invitation letters were sent, and the survey resulted in approximately 24,000 completed questionnaires.
+3. Target population: All persons 15 years of age and older living in the ten provinces of Canada. It excludes full-time residents of institutions (residing for more than six months).
+4. Sampling frame: The frame combines landline and cellular telephone numbers from the Census and various administrative sources with Statistics Canada's dwelling frame.
+5. Survey mode(s): Data are collected directly from survey respondents either through an electronic questionnaire or through CATI (Computer Assisted Telephone Interviewing).
+6. Timeline: The data collection period was from September 4, 2018, to December 28, 2018.
+7. Response rate: The overall response rate was 41.9%.
+8. Weights: Estimation weights (WGHT_PER) and bootstrap weights.
+9. Data processing: Processing used the Social Survey Processing Environment (SSPE).
+10. Cleaning, imputation, etc: Automated and manual edits (family, consistency, and flow). Missing data was addressed via donor imputation (nearest neighbor) and mean imputation. Income data was 81.9% tax-linked, with the rest imputed.
+11. Sources of error: Sampling error (statistical variability) and non-sampling error, including coverage gaps (households without telephones), non-response at household/individual levels, and potential response or processing errors.
+12. Limitations, known biases, etc: Coverage bias from excluding households without telephones and non-response bias. The latter was mitigated by modeling non-responder characteristics using administrative data. Geographic limits include the exclusion of the three territories.
+13. Link to documentation and any additional sources used: https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=796234&utm_source=chatgpt.com
 ```
 
 ## Rubric
